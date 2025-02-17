@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-
 from app.core.stock_analysis import analyze_stock
 
 router = APIRouter(prefix="/stock", tags=["stock"])
